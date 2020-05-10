@@ -22,32 +22,9 @@ Baidu Index (http://index.baidu.com), similar to Google Trends, provides insight
 
 The raw data from web scraping covered 408 herbal ingredients and 943 TCM prescriptions. This relatively small number of ingredients compared to the number of prescriptions indicates that TCM is exploiting different combinations of ingredients to achieve treatment effects.
 
+# Network Analysis
+We start with a network-based approach to explore the underlying pattern of ingredients combinations in TCM prescriptions. The nodes represent ingredients, linked if they co-exist in at least one prescription. The weight of each link represents the frequency of co-existence, turning the ingredient network into a weighted network. While ideally the ingredient concentration in each prescription should be taken into account, the lack of systematic data prevents us from analyzing at this level of detail. We take advantage of the Baidu Index to visualize the trending - red edges indicate a decrease in trending and green indicates otherwise. We detected network communities and visualized the communities using the Radial Axis layout, as implemented in Gephi (Figure 2).
 
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
+![Image of Network](https://github.com/liyuancheng-hku/TCM-Network-Analysis/blob/master/Final.png)
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/liyuancheng-hku/TCM_Network/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
