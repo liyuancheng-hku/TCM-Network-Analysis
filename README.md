@@ -13,17 +13,10 @@ Grounded in the idea of harmony between humans and nature, TCM could in principl
 # Data 
 To understand how various herbal ingredients relate to different prescriptions, we collected information about both ingredients and prescriptions.
 
-## Ingredients 
-The database (https://herbaltcm.sn.polyu.edu.hk/herbal/) contains information of more than four hundred types of commonly used Chinese medicinal herbs (ingredients). Available attributes include the source, medicinal group, flavor, and meridian affinity.
-
-## Ingredients price 
-This is an official website (https://www.zyctd.com/) run by the Chinese Medicine Association. It updates information about TCM ingredients promptly from the four largest TCM ingredients markets in China, Anguo, Bozhou, Yulin, and Lotus Lake. It contains pricing information for TCM ingredients, including the price, price trends, Week Over Week (WoW), Month Over Month (MoM), and Year Over Year (YoY) comparisons. The format of the website is well-formed, so we directly built a list of ingredients, took them as keywords in the URL, and got the detailed price information. 
-
-## TCM prescription 
-The website (http://zhongyaofangji.com/) gathers some most common fang ji (TCM prescriptions) and ingredients used in each fang ji. These fang ji are mainly from traditional medical books, for example, Treatise on Febrile and Miscellaneous Diseases. We scraped them according to the solution to different diseases. To authenticate these prescriptions, we also refer to the textbook of fang ji published by the Chinese Press of Traditional Chinese Medicine. To facilitate the construction of the network edges in Gephi, we mutated the data into small pieces with only one ingredient and one prescription in each row. 
-
-## Baidu Index 
-Baidu Index (http://index.baidu.com), similar to Google Trends, provides insights over the popularity of top search queries in the Baidu search engine. We scraped the search engine index each day for the past year and calculated the change in the index for the past month and year. This change was used in regression and correlation analysis. For some rare keywords or those with low search volumes, the Baidu Index did not provide any results. We filled in zero for the rare words. 
+1.  [Ingredients](https://herbaltcm.sn.polyu.edu.hk/herbal/)
+2.  [Ingredients price](https://www.zyctd.com/)
+3.  [TCM prescription ](http://zhongyaofangji.com/)
+4.  [Baidu Index](http://index.baidu.com)
 
 **The raw data from web scraping covered 408 herbal ingredients and 943 TCM prescriptions. This relatively small number of ingredients compared to the number of prescriptions indicates that TCM is exploiting different combinations of ingredients to achieve treatment effects.**
 
