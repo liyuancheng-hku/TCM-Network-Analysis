@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+# ABSTRACT
 
-You can use the [editor on GitHub](https://github.com/liyuancheng-hku/TCM_Network/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Traditional Chinese Medicines (TCM) have been heavily promoted in the Covid-19 pandemic. They achieve treatment effects by prescribing different combinations of medical herbal ingredients. Here we illustrate how these combinations form a network for the visual analysis and provide insights for those who are in the TCM value chain.  
 
 ### Markdown
 
