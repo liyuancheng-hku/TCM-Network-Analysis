@@ -26,6 +26,7 @@ The raw data from web scraping covered 408 herbal ingredients and 943 TCM prescr
 We start with a network-based approach to explore the underlying pattern of ingredients combinations in TCM prescriptions. The nodes represent ingredients, linked if they co-exist in at least one prescription. The weight of each link represents the frequency of co-existence, turning the ingredient network into a weighted network. While ideally the ingredient concentration in each prescription should be taken into account, the lack of systematic data prevents us from analyzing at this level of detail. We take advantage of the Baidu Index to visualize the trending - red edges indicate a decrease in trending and green indicates otherwise. We detected network communities and visualized the communities using the Radial Axis layout, as implemented in Gephi (Figure 2).
 
 ![Image of Network](https://github.com/liyuancheng-hku/TCM-Network-Analysis/blob/master/Final.png)
-<img src="https://github.com/liyuancheng-hku/TCM-Network-Analysis/blob/master/Final.png" class="img-responsive" alt=""> </div>
+
+<img src="https://github.com/liyuancheng-hku/TCM-Network-Analysis/blob/master/Final.png" class="img-responsive" alt=""> 
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
