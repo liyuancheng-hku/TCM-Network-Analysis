@@ -2,6 +2,8 @@
 
 Traditional Chinese Medicines (TCM) have been heavily promoted in the Covid-19 pandemic. They achieve treatment effects by prescribing different combinations of medical herbal ingredients. Here we illustrate how these combinations form a network for the visual analysis and provide insights for those who are in the TCM value chain.  
 
+![Image of Network](layout_group.png)
+
 # Introduction
 
 During the Covid-19 pandemic, remedies known as traditional Chinese medicine, or commonly TCM, are heavily promoted by the state government of China. Some TCM treatments, notably Lianhua Qingwen, became frequently recommended Chinese patent medicine for the alleviation of mild symptoms of Covid-19. Moreover, in recent years, TCM has been expanding at a notable rate as advocating natural ingredients becomes a worldwide trend. According to Global Trade Magazine, in 2016, the sector totaled $139bn, then expanded a further 20% throughout 2017, and the pattern of growth can be seen not only domestically but also overseas. According to Nature, the selling of TCM and other related products to One Belt One Road countries has surged, experiencing a whopping 54% growth to $295mm. The project group sees tremendous business opportunities behind this swelling demand and combines data and analysis to unearth actionable insights that help relevant businesses improve their performance.
@@ -25,8 +27,8 @@ The raw data from web scraping covered 408 herbal ingredients and 943 TCM prescr
 # Network Analysis
 We start with a network-based approach to explore the underlying pattern of ingredients combinations in TCM prescriptions. The nodes represent ingredients, linked if they co-exist in at least one prescription. The weight of each link represents the frequency of co-existence, turning the ingredient network into a weighted network. While ideally the ingredient concentration in each prescription should be taken into account, the lack of systematic data prevents us from analyzing at this level of detail. We take advantage of the Baidu Index to visualize the trending - red edges indicate a decrease in trending and green indicates otherwise. We detected network communities and visualized the communities using the Radial Axis layout, as implemented in Gephi (Figure 2).
 
-![Image of Network](https://github.com/liyuancheng-hku/TCM-Network-Analysis/blob/master/Final.png)
+![Image of Network](Final.png)
 
-<img src="https://github.com/liyuancheng-hku/TCM-Network-Analysis/blob/master/Final.png" class="img-responsive" alt=""> 
+
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
