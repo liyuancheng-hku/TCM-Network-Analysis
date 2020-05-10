@@ -50,5 +50,3 @@ Our work reveals the limitations of the prescription data sets currently availab
 2.	Ahn, Yong-Yeol & Ahnert, Sebastian & Bagrow, James & Barabasi, Albert-Laszlo. (2011). Flavor network and the principles of food pairing. Scientific Reports. 1. 10.1038/srep00196. 
 3.	Smiley, S. (2020, February 13). From A to QI: The Global Rise of Traditional Chinese Medicine. Retrieved from https://www.globaltrademag.com/from-a-to-qi-the-global-rise-of-traditional-chinese-medicine/
 4.	Hinsley, A., Milner-Gulland, E.J., Cooney, R. et al. Building sustainability into the Belt and Road Initiative’s Traditional Chinese Medicine trade. Retrieved from https://doi.org/10.1038/s41893-019-0460-6
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
